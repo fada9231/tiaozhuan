@@ -2,6 +2,7 @@ name = "url-shortener"
 main = "index.js"
 compatibility_date = "2023-01-01"
 
-[kv_namespaces]
-- binding = "URL_KV"
-  id = "5d3de24ec194408c80d61ad9cf0eb83f"  # 暂时留空，后续添加
+# KV 命名空间绑定（将下面的 ID 替换为你自己的）
+[[kv_namespaces]]
+binding = "URL_KV"
+id = "5d3de24ec194408c80d61ad9cf0eb83f"
